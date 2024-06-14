@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <changeSet id="3" author="author">
+        <insert tableName="station">
+            <column name="station" value="Moscow (Kazansky)"/>
+        </insert>
+        <insert tableName="station">
+            <column name="station" value="Saint Petersburg (Moskovsky)"/>
+        </insert>
+        <insert tableName="station">
+            <column name="station" value="Samara"/>
+        </insert>
+        <insert tableName="station">
+            <column name="station" value="Novosibirsk (Glavny)"/>
+        </insert>
+        <insert tableName="station">
+            <column name="station" value="Yekaterinburg"/>
+        </insert>
+        <insert tableName="station">
+            <column name="station" value="Kazan"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
